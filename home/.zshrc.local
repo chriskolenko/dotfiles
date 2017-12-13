@@ -1,0 +1,4 @@
+export GOPATH="$HOME/workspace/go"
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
+
+eval "$(direnv hook zsh)"
